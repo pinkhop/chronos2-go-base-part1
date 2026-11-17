@@ -1,0 +1,29 @@
+{
+  "upstream": {
+    "repository": "amazon/chronos-2",
+    "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+    "file": "model.safetensors",
+    "sha256": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
+  },
+  "max_shard_bytes": 45000000,
+  "shards": [
+    {
+      "file": "model-00001-of-00012.safetensors",
+      "bytes": 44840896,
+      "sha256": "c85f9f35ee604a17106a65a8b9b17d00eba681a62224ebc2db786d126c689887",
+      "tensors": 17
+    },
+    {
+      "file": "model-00002-of-00012.safetensors",
+      "bytes": 44840912,
+      "sha256": "c23d1e164ba2bcfb8a314bcd59bdf75b023798cd271b6cc4c11a6585926792b2",
+      "tensors": 17
+    },
+    {
+      "file": "model-00003-of-00012.safetensors",
+      "bytes": 42481512,
+      "sha256": "10dd518e51094494ca844e07c04be336d356b82ec3d90d3307aa7ad3bf8c5b42",
+      "tensors": 16
+    }
+  ]
+}
